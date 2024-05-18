@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+
+<style>
+
+.md{
+    border: 1px solid black;
+    height: 50vh;
+    width:50vw;
+    background-color: lightgray;
+    overflow-y:scroll;
+    position:relative;
+
+}
+
+section{
+    border: 1px solid black;
+       height: 10vh;
+       width: 10vw;   
+}
+.sec1{
+       background-color: aqua;
+       position:absolute;
+       top:1px;
+}
+
+.sec2{
+    background-color:blanchedalmond;
+}
+
+.sec3{
+    background-color: greenyellow;
+
+}
+.sec33{
+    background-color: greenyellow;
+    position: fixed;
+    left:120px;
+}
+.sec4{
+    background-color: green;
+
+}
+.sec44{
+    background-color: green;
+    position:sticky;
+    top:10px;
+    bottom:30px;
+    left:180px;
+
+}
+.sec5{
+    background-color: orange;
+}
+.sec6{
+    background-color: orangered;
+}
+.sec7{
+    background-color: lightblue;
+    position:relative;
+    top:10px;
+    left:20px;
+    z-index: 3;
+}
+.sec8{
+    background-color: lightcoral;
+    position:relative;
+    z-index: 2;
+}
+.sec9{
+    background-color:lightslategray;
+}
+
+</style>
+
+</head>
+<body>
+    <main class="md">
+<section class="sec1">1</section>
+<section class="sec2">2</section>
+<section class="sec3">3</section>
+<section class="sec33">33</section>
+<section class="sec4">4</section>
+<section class="sec44">44</section>
+<section class="sec5">5</section>
+<section class="sec6">6</section>
+<section class="sec7">7</section>
+<section class="sec8">8</section>
+<section class="sec9">9</section>
+
+    </main>
+</body>
+</html>
